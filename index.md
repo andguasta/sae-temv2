@@ -7,6 +7,7 @@
 - Git
 - Sublime Text
 - Sublime Merge
+
 ### Course Program
 - Introduction to Programming
 - Advanced Music
@@ -14,7 +15,7 @@
 - Version Control
 - Game Engine Integration
 - Resources Optimisation
-- - -
+---
 ### Technical Books
 - **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold https://www.goodreads.com/book/show/44882.Code
     - Come funzionano i computer partendo dai componenti
@@ -30,6 +31,7 @@
     - Copre tantissime tecniche di sintesi e di DSP. Libro molto importante per chi è interessato all'aspetto tecnico del sound design
 - **Audio Engineer's Reference Book** by Michael Talbot-Smith https://www.routledge.com/Audio-Engineers-Reference-Book/Talbot-Smith/p/book/9780240516851
     - Accessibile come studenti SAE nella e-library
+
 ### Non Audio Related Books
 - **What If? Serious Scientific Answers to Absurd Hypothetical Questions** by Randall Munroe
 https://www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-to-absurd-hypothetical-questions
