@@ -42,3 +42,28 @@ https://www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-
     - Lettura molto interessante su come gestire il tempo per riuscire a produrre lavori di qualità
 - **Four Thousand Weeks: Time Management for Mortals** by Oliver Burkeman https://www.goodreads.com/book/show/54785515-four-thousand-weeks
     - Con il tempo limitato che abbiamo quanto possiamo fare veramente?
+
+- - -
+#### Esercizi
+### Mario
+![[assets/img/SuperMarioBlocks.jpeg|300]]
+Fare un programma che chiede all’utente un’altezza e restituisce una piramide ostacolo simile a quella che si trova in Super Mario. (La piramide deve essere simmetrica verticalmente) La massima altezza possibile deve essere 10.
+```
+//">:" Rappresenta del testo stampato dal programma 
+//"<:" Rappresenta l'input dell'utente 
+>: Height: 
+><: -1 
+>>: Height: 
+<: 0 
+>: Height: 
+<: 90 
+>: Height: 
+<: 43 
+>: Height: 
+<: 4 
+>: 
+   # # 
+  ## ## 
+ ### ### 
+#### ####
+```
