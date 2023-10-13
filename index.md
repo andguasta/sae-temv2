@@ -17,12 +17,12 @@
 - Resources Optimisation
 ---
 ### Technical Books
-- **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold https://www.goodreads.com/book/show/44882.Code
+- **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold [link goodreads](https://www.goodreads.com/book/show/44882.Code)
     - Come funzionano i computer partendo dai componenti
-- **Designing Sound** by Andy Farnell https://mitpress.mit.edu/books/designing-sound
+- **Designing Sound** by Andy Farnell [link mitpress](https://mitpress.mit.edu/books/designing-sound)
     - Procedural Audio and Synthesis
     - Accessibile come studenti SAE nella e-library
-- **The Audio Programming Book** by Richard Boulanger and Victor Lazzarini https://mitpress.mit.edu/books/audio-programming-book
+- **The Audio Programming Book** by Richard Boulanger and Victor Lazzarini [link mitpress](https://mitpress.mit.edu/books/audio-programming-book)
     - Come si utilizza C nell'audio e come si implementano effetti e sintesi.
 - **Microsound** By Curtis Roads https://mitpress.mit.edu/books/microsound
     - Sulla sintesi Granulare
