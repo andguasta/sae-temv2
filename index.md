@@ -16,6 +16,7 @@
 - Game Engine Integration
 - Resources Optimisation
 ---
+
 ### Technical Books
 - **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold [link goodreads](https://www.goodreads.com/book/show/44882.Code)
     - Come funzionano i computer partendo dai componenti
