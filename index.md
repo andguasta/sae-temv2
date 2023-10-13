@@ -46,7 +46,7 @@ https://www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-
 - - -
 #### Esercizi
 ### Mario
-![[assets/img/SuperMarioBlocks.jpeg|300]]
+![MarioBlocks](img/SuperMarioBlocks.jpeg)
 Fare un programma che chiede all’utente un’altezza e restituisce una piramide ostacolo simile a quella che si trova in Super Mario. (La piramide deve essere simmetrica verticalmente) La massima altezza possibile deve essere 10.
 ```
 //">:" Rappresenta del testo stampato dal programma 
