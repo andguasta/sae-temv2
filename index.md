@@ -1,3 +1,12 @@
+| Course Software  | Course Program              | ---                                 |
+| ---------------- | --------------------------- | ----------------------------------- |
+| Unity 2020.3 Lts | Introduction to Programming | [Logo](assets/img/CourseImage.png) |
+| Wwise 2019.2.15  | Advanced Music              |                                     |
+| Git              | Large Project Management    |                                     |
+| Sublime Text     | Version Control             |                                     |
+| Sublime Merge    | Game Engine Integration     |                                     |
+|                  | Resources Optimisation      |                                     |
+
 ### Course Software
 - Unity 2020.3 Lts
     - Visual Studio
@@ -59,6 +68,7 @@ Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
 ```bash
 echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password
 ```
+
 
 - **`echo`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `echo "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
 - **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
