@@ -49,6 +49,7 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
     - Con il tempo limitato che abbiamo quanto possiamo fare veramente?
 
 ---
+
 ## Lessons
 #### How to decode the Google Drive string
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
