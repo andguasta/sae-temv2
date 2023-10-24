@@ -1,12 +1,3 @@
----
-title: TeMV2 - Materials Page
-subtitle: Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2
-social-share: false
----
-Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
-```
-U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
-```
 ### Course Software
 - Unity 2020.3 Lts
     - Visual Studio
@@ -16,7 +7,6 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
 - Git
 - Sublime Text
 - Sublime Merge
-
 ### Course Program
 - Introduction to Programming
 - Advanced Music
@@ -25,10 +15,16 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
 - Game Engine Integration
 - Resources Optimisation
 
+- - -
+
+Per i **Video** delle lezione e alcuni **Pdf** utili potete accedere a questa cartella Google Drive:
+```
+U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
+```
 ---
 
-## Books
-### Technical Books
+## ==Books==
+### ==Technical Books==
 - **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold [link goodreads](https://www.goodreads.com/book/show/44882.Code)
     - Come funzionano i computer partendo dai componenti
 - **Designing Sound** by Andy Farnell [link mitpress](https://mitpress.mit.edu/books/designing-sound)
@@ -44,7 +40,7 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
 - **Audio Engineer's Reference Book** by Michael Talbot-Smith [link routledge](https://www.routledge.com/Audio-Engineers-Reference-Book/Talbot-Smith/p/book/9780240516851)
     - Accessibile come studenti SAE nella e-library
 
-### Non Audio Related Books
+### ==Non Audio Related Books==
 - **What If? Serious Scientific Answers to Absurd Hypothetical Questions** by Randall Munroe
 [link goodreads](https://www.goodreads.com/book/show/21413662-what-if-serious-scientific-answers-to-absurd-hypothetical-questions)
     - Libro di xkcd che risponde in maniera scientifica a domande assurde
@@ -55,8 +51,8 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
 
 ---
 
-## Lessons
-#### How to decode the Google Drive string
+## ==Lessons==
+#### ==How to decode the Google Drive string==
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
 
 ```bash
@@ -72,3 +68,11 @@ echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:passw
 - **`-d`** Decifra i dati in input. Senza questo flag, l'operazione predefinita sarebbe quella di cifrare.
 - **`pbkdf2`** PBKDF2 (Password-Based Key Derivation Function 2) è un metodo utilizzato per trasformare una password in una chiave più lunga e sicura. Lo fa mescolando e elaborando ripetutamente la password, rendendo più difficile per gli aggressori indovinare la password originale anche se hanno la chiave risultante.
 - **`-pass pass:password:`** Questo è il modo in cui si specifica la passphrase utilizzata per la cifratura o decifrazione. In questo caso, la passphrase è "password".
+
+#### ==Lesson 1==
+**Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
+**Wandbox**: https://wandbox.org/
+**OnlineGDB**: https://www.onlinegdb.com/
+Libro su C: **Head First C** by David Griffiths
+https://www.oreilly.com/library/view/head-first-c/9781449335649/
+![CBook](assets/img/HeadFirstC.jpeg)
