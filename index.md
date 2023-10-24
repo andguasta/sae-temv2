@@ -1,3 +1,5 @@
+Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
+`U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9`
 ### Course Software
 - Unity 2020.3 Lts
     - Visual Studio
@@ -17,6 +19,7 @@
 - Resources Optimisation
 
 ---
+
 ## Books
 ### Technical Books
 - **Code: The Hidden Language of Computer Hardware and Software** by Charles Petzold [link goodreads](https://www.goodreads.com/book/show/44882.Code)
@@ -43,4 +46,11 @@
 - **Four Thousand Weeks: Time Management for Mortals** by Oliver Burkeman [link goodreads](https://www.goodreads.com/book/show/54785515-four-thousand-weeks)
     - Con il tempo limitato che abbiamo quanto possiamo fare veramente?
 
-- - -
+---
+## Lessons
+#### How to decode the Google Drive string
+Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
+`echo "U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password`
+
+`echo` è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `echo "Hello, World!"`
+Questo visualizzerà `"Hello, World!"` nel terminale.
