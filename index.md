@@ -1,5 +1,5 @@
 Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
-`U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9`
+  `U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9`   
 ### Course Software
 - Unity 2020.3 Lts
     - Visual Studio
@@ -50,7 +50,15 @@ Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive
 ## Lessons
 #### How to decode the Google Drive string
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
-`echo "U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password`
 
-`echo` è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `echo "Hello, World!"`
-Questo visualizzerà `"Hello, World!"` nel terminale.
+`echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password`
+
+- **`echo`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `echo "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
+- **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
+- **`openssl`** è un toolkit open-source per SSL/TLS e crittografia. Offre funzionalità come comunicazione sicura, generazione di chiavi e gestione dei certificati.
+- **`enc`** indica che si desidera cifrare o decifrare dei dati.
+- **`-aes256`** Specifica l'algoritmo da utilizzare, in questo caso, AES con una chiave da 256 bit.
+- **`-a`** Questa opzione indica a OpenSSL di codificare l'output in base64. È utile quando i dati devono essere memorizzati e trasferiti su supporti progettati per gestire il testo.
+- **`-d`** Decifra i dati in input. Senza questo flag, l'operazione predefinita sarebbe quella di cifrare.
+- **`pbkdf2`** PBKDF2 (Password-Based Key Derivation Function 2) è un metodo utilizzato per trasformare una password in una chiave più lunga e sicura. Lo fa mescolando e elaborando ripetutamente la password, rendendo più difficile per gli aggressori indovinare la password originale anche se hanno la chiave risultante.
+- **`-pass pass:password:`** Questo è il modo in cui si specifica la passphrase utilizzata per la cifratura o decifrazione. In questo caso, la passphrase è "password".
