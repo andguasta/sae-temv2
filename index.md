@@ -1,5 +1,6 @@
 Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
-```  U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
+```
+U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
 ```
 ### Course Software
 - Unity 2020.3 Lts
