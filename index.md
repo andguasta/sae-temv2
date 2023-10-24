@@ -1,5 +1,6 @@
 Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
-  `U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9`   
+```  U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
+```
 ### Course Software
 - Unity 2020.3 Lts
     - Visual Studio
@@ -51,7 +52,9 @@ Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive
 #### How to decode the Google Drive string
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
 
-`echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password`
+```bash
+echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password
+```
 
 - **`echo`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `echo "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
 - **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
