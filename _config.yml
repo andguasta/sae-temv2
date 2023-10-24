@@ -3,4 +3,4 @@ plugins:
 remote_theme: daattali/beautiful-jekyll@6.0.1
 title: "SAE TeMV2 2023-2024"
 description: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2"
-logo: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
+avatar: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
