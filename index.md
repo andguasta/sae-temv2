@@ -1,4 +1,7 @@
 ---
+title: TeMV2 - Materials Page
+subtitle: Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2
+social-share: false
 ---
 Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
 ```
