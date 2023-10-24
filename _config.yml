@@ -1,4 +1,7 @@
 theme: minima
 title: "SAE TeMV2 2023-2024"
-description: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2."
+description: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2. Docente: Andrea Guastadisegni"
 logo: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
+
+minima:
+  skin: solarized-light
