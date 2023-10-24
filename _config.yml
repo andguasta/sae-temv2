@@ -1,6 +1,6 @@
 plugins:
 - jekyll-remote-theme
-remote_theme: poole/hyde
+remote_theme: BDHU/minimalist
 title: "SAE TeMV2 2023-2024"
 description: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2."
 logo: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
