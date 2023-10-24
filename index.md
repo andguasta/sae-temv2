@@ -1,29 +1,12 @@
-| Course Software  | Course Program              | ---                                 |
-| ---------------- | --------------------------- | ----------------------------------- |
-| Unity 2020.3 Lts | Introduction to Programming | [Logo](assets/img/CourseImage.png) |
-| Wwise 2019.2.15  | Advanced Music              |                                     |
-| Git              | Large Project Management    |                                     |
-| Sublime Text     | Version Control             |                                     |
-| Sublime Merge    | Game Engine Integration     |                                     |
-|                  | Resources Optimisation      |                                     |
-
-### Course Software
-- Unity 2020.3 Lts
-    - Visual Studio
-    - Unity Hub
-    - Mac Build
-- Wwise 2019.2.15
-- Git
-- Sublime Text
-- Sublime Merge
-
-### Course Program
-- Introduction to Programming
-- Advanced Music
-- Large Project Management
-- Version Control
-- Game Engine Integration
-- Resources Optimisation
+| Course Software  | Course Program              |
+| ---------------- | --------------------------- |
+| Unity 2020.3 Lts | Introduction to Programming |
+| - Visual Studio  | Advanced Music              |
+| - Mac Buils      | Large Project Management    |
+| Wwise 2019.2.15  | Version Control             |
+| Git              | Game Engine Integration     |
+| Sublime Text     | Resources Optimisation      |
+| Sublime Merge    |                             |
 
 - - -
 
@@ -82,13 +65,13 @@ echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:passw
 
 - - -
 
-### Lesson 1
+## Lesson 1
 
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
-- **Wandbox**: https://wandbox.org/
-- **OnlineGDB**: https://www.onlinegdb.com/
+- **Wandbox**: [wandbox.org](https://wandbox.org/)
+- **OnlineGDB**: [onlinegdb.com](https://www.onlinegdb.com/)
 
 Libro su C: **Head First C** by David Griffiths
-https://www.oreilly.com/library/view/head-first-c/9781449335649/
+[link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
 
 ![CBook](assets/img/HeadFirstC.jpeg)
