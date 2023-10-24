@@ -7,6 +7,7 @@
 - Git
 - Sublime Text
 - Sublime Merge
+
 ### Course Program
 - Introduction to Programming
 - Advanced Music
@@ -15,11 +16,12 @@
 - Game Engine Integration
 - Resources Optimisation
 
-Per i pdf e i video delle lezione potete accedere a questa cartella Google Drive:
+- - -
+
+Per i **Video** delle lezione e alcuni **Pdf** utili potete accedere a questa cartella Google Drive:
 ```
 U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
 ```
-
 ---
 
 ## Books
@@ -78,4 +80,5 @@ echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:passw
 
 Libro su C: **Head First C** by David Griffiths
 https://www.oreilly.com/library/view/head-first-c/9781449335649/
+
 ![CBook](assets/img/HeadFirstC.jpeg)
