@@ -2,7 +2,7 @@
 title: TeMV2 - Material Page
 subtitle: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2. Docente: Andrea Guastadisegni"
 thumbnail-img: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
-cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header2.png
+cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header1.png
 ---
 
 | Course Software  | Course Program              |
@@ -73,6 +73,11 @@ echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:passw
 - - -
 
 ## Lesson 1
+
+Slides:
+```
+U2FsdGVkX1/RjAvgZs+jg+AVfLZPJEAkaCi3d/9X+5EZBEKcB7uRCRQ10wz21mRF\nPKi98zj3B5MIfm+a9cXVOLexamfkfXHIguLYSRaIJizZoAy7y4TbW/Zf+vXt4Hdh\nAjzsUVw8uScEErkx5AjZ2MD7cUnPPAn0ynRC3L8+3fy9tmbUR3Gi4HDBtMIijkGz\nlU9GPez/vsmFYSxyul6kTw8ckiunZMbMAN/nhjGH6vma0b0fWpXAq6etRvzdSuZA
+```
 
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
 - **Wandbox**: [wandbox.org](https://wandbox.org/)
