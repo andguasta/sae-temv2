@@ -87,3 +87,6 @@ Libro su C: **Head First C** by David Griffiths
 [link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
 
 ![CBook](assets/img/HeadFirstC.jpeg)
+
+Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/20140702035255/https://www.wired.com/2011/10/thedennisritchieeffect/)
+
