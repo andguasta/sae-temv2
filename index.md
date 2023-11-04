@@ -56,11 +56,11 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
 
 ```bash
-echo "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password
+printf "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password
 ```
 
 
-- **`echo`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `echo "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
+- **`printf`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `printf "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
 - **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
 - **`openssl`** è un toolkit open-source per SSL/TLS e crittografia. Offre funzionalità come comunicazione sicura, generazione di chiavi e gestione dei certificati.
 - **`enc`** indica che si desidera cifrare o decifrare dei dati.
