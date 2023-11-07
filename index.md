@@ -72,7 +72,7 @@ printf "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:pas
 
 - - -
 
-## Lesson 1
+## Lesson 1-2
 
 Slides:
 ```
@@ -83,10 +83,59 @@ U2FsdGVkX1/RjAvgZs+jg+AVfLZPJEAkaCi3d/9X+5EZBEKcB7uRCRQ10wz21mRF\nPKi98zj3B5MIfm
 - **Wandbox**: [wandbox.org](https://wandbox.org/)
 - **OnlineGDB**: [onlinegdb.com](https://www.onlinegdb.com/)
 
-Libro su C: **Head First C** by David Griffiths
-[link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
+Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/20140702035255/https://www.wired.com/2011/10/thedennisritchieeffect/)
+Libro su C: **Head First C** by David Griffiths [link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
 
 ![CBook](assets/img/HeadFirstC.jpeg)
 
-Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/20140702035255/https://www.wired.com/2011/10/thedennisritchieeffect/)
+**Recursion:** Bella Talk sulla Recursion: [Link Youtube](https://www.youtube.com/watch?v=tAKfA3Lfvi0)
+Fare pratica su sololearn di quello che è stato fatto in classe con i primi due moduli di questo corso: **Basic Concepts + Conditionals and Loops + moduli 15.1 e 16.1 sulle Funzioni**
+[Link Sololearn](https://www.sololearn.com/learn/courses/c-introduction)
+#### Esercizio da Fare per la lezione 3: Mario
+![MarioBlocks](SAE_Websites/sae-temv2/assets/img/SuperMarioBlocks.jpeg)
 
+Fare un programma che chiede all’utente un’altezza e restituisce una piramide ostacolo simile a quella che si trova in Super Mario. (La piramide deve essere simmetrica verticalmente) La massima altezza possibile deve essere 10.
+```
+//">:" Rappresenta del testo stampato dal programma 
+//"<:" Rappresenta l'input dell'utente 
+>: Height: 
+><: -1 
+>>: Height: 
+<: 0 
+>: Height: 
+<: 90 
+>: Height: 
+<: 43 
+>: Height: 
+<: 4 
+>: 
+   # # 
+  ## ## 
+ ### ### 
+#### ####
+```
+#### Esercizio da Fare per la lezione 4: Fibonacci Numbers
+Fare un Programma che stampa un numero di fibonacci specifico
+> [!info] The magic of Fibonacci numbers | Arthur Benjamin  
+> [https://www.youtube.com/watch?v=SjSHVDfXHQ4](https://www.youtube.com/watch?v=SjSHVDfXHQ4)  
+
+> [!info] The Fibonacci Sequence: Nature's Code    
+> [https://www.youtube.com/watch?v=wTlw7fNcO-0](https://www.youtube.com/watch?v=wTlw7fNcO-0)  
+
+```
+//">:" Rappresenta del testo stampato dal programma
+//"<:" Rappresenta l'input dell'utente
+>: Find the nth fibonacci number:
+<: 8
+>: The 8th fibonacci number is: 21
+>: Do you want to enter another number?
+<: y
+>: Find the nth fibonacci number:
+<: 18
+>: The 18th fibonacci number is: 2584
+>: Do you want to enter another number?
+<: N
+>: Bye
+```
+
+- - -
