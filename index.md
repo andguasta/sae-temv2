@@ -92,7 +92,7 @@ Libro su C: **Head First C** by David Griffiths [link oreilly](https://www.oreil
 Fare pratica su sololearn di quello che è stato fatto in classe con i primi due moduli di questo corso: **Basic Concepts + Conditionals and Loops + moduli 15.1 e 16.1 sulle Funzioni**
 [Link Sololearn](https://www.sololearn.com/learn/courses/c-introduction)
 #### Esercizio da Fare per la lezione 3: Mario
-![MarioBlocks](SAE_Websites/sae-temv2/assets/img/SuperMarioBlocks.jpeg)
+![MarioBlocks](assets/img/SuperMarioBlocks.jpeg)
 
 Fare un programma che chiede all’utente un’altezza e restituisce una piramide ostacolo simile a quella che si trova in Super Mario. (La piramide deve essere simmetrica verticalmente) La massima altezza possibile deve essere 10.
 ```
