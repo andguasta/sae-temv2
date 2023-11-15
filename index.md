@@ -19,7 +19,7 @@ cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header1.png
 
 Per i **Video** delle lezione e alcuni **Pdf** utili potete accedere a questa cartella Google Drive:
 ```
-U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2OfbdjO7oqb89JwtBcpNuvmBdnPVW4iLuCCPS9T+kuDgQYDWScFRA9
+U2FsdGVkX19fYOVSoEE/ilXJRPfEQt1v7Y0PYIAsc67H6cfXnCo40nrycJed1yfl\nipD4hp5UROFb3WYrtcGCAJTk5eHePxc/F/Z86lQbCB7relwCtc/06tYjGc9TRjSE
 ```
 ---
 
@@ -56,7 +56,7 @@ U2FsdGVkX1+jPp70nWnIBk9k91YIjpgOA7KM//tF6yQG7RbluhbXkjZphgGkeBk8\nlcQJbXI88A2Ofb
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
 
 ```bash
-printf "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:password
+printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -a -d -pass pass:password
 ```
 
 
@@ -64,11 +64,11 @@ printf "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:pas
 - **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
 - **`openssl`** è un toolkit open-source per SSL/TLS e crittografia. Offre funzionalità come comunicazione sicura, generazione di chiavi e gestione dei certificati.
 - **`enc`** indica che si desidera cifrare o decifrare dei dati.
-- **`-aes256`** Specifica l'algoritmo da utilizzare, in questo caso, AES con una chiave da 256 bit.
+- **`-aes-256-cbc`** Specifica l'algoritmo da utilizzare, in questo caso, AES con una chiave da 256 bit.
+- **`-md sha256`**:  Specifica di utilizzare un algoritmo di hashing che produce un valore hash di 256 bit.
 - **`-a`** Questa opzione indica a OpenSSL di codificare l'output in base64. È utile quando i dati devono essere memorizzati e trasferiti su supporti progettati per gestire il testo.
 - **`-d`** Decifra i dati in input. Senza questo flag, l'operazione predefinita sarebbe quella di cifrare.
-- **`pbkdf2`** PBKDF2 (Password-Based Key Derivation Function 2) è un metodo utilizzato per trasformare una password in una chiave più lunga e sicura. Lo fa mescolando e elaborando ripetutamente la password, rendendo più difficile per gli aggressori indovinare la password originale anche se hanno la chiave risultante.
-- **`-pass pass:password:`** Questo è il modo in cui si specifica la passphrase utilizzata per la cifratura o decifrazione. In questo caso, la passphrase è "password".
+- **`-pass pass:password`** Questo è il modo in cui si specifica la passphrase utilizzata per la cifratura o decifrazione. In questo caso, la passphrase è "password".
 
 - - -
 
@@ -76,7 +76,7 @@ printf "Received String Here" | openssl enc -aes256 -a -d -pbkdf2 -pass pass:pas
 
 Slides:
 ```
-U2FsdGVkX1/RjAvgZs+jg+AVfLZPJEAkaCi3d/9X+5EZBEKcB7uRCRQ10wz21mRF\nPKi98zj3B5MIfm+a9cXVOLexamfkfXHIguLYSRaIJizZoAy7y4TbW/Zf+vXt4Hdh\nAjzsUVw8uScEErkx5AjZ2MD7cUnPPAn0ynRC3L8+3fy9tmbUR3Gi4HDBtMIijkGz\nlU9GPez/vsmFYSxyul6kTw8ckiunZMbMAN/nhjGH6vma0b0fWpXAq6etRvzdSuZA
+U2FsdGVkX1/Ay6JI9p3pJTr0MgTu4yvh2xTMtI7FAsmhDRDbgh5s5l1mdkubAhmQ\nnlzTAVYgcShtI40zXGguvA7HEAgUlkknPSfZmrU41r4+SY2Na6eqb1h+KgOw+jvN\nD28PA+0TkBXHjoC7+HpryhpdNs0SOnyGoAQToWciBRRwCWKzRcWjToi48B1dwq+c\nAgQGoOryuufI3tZY99yP4DmAq02R7JP6l1G6Sm6obVpB6ZrwB8H2enfVKpWZOph5
 ```
 
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
