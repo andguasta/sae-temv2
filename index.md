@@ -139,14 +139,12 @@ Fare un Programma che stampa un numero di fibonacci specifico
 >: Bye
 ```
 
-#### Game on Programming
-**Human Resource Machine** - [link](https://tomorrowcorporation.com/humanresourcemachine)
+**Game on Programming: Human Resource Machine** - [link](https://tomorrowcorporation.com/humanresourcemachine)
 > _Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! Don't worry if you've never programmed before - programming is just puzzle solving. If you strip away all the 1's and 0's and scary squiggly brackets, programming is actually simple, logical, beautiful, and something that anyone can understand and have fun with!_
 
 - - -
 
 ## Git
 
-Sito interattivo per imparare i comandi git
-https://learngitbranching.js.org/
+Sito interattivo per imparare i comandi git: [Learn Git Branching](https://learngitbranching.js.org/)
 
