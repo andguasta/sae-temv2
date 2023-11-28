@@ -4,7 +4,6 @@ subtitle: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2.
 thumbnail-img: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
 cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header1.png
 ---
-
 | Course Software  | Course Program              |
 | ---------------- | --------------------------- |
 | Unity 2020.3 Lts | Introduction to Programming |
@@ -72,7 +71,7 @@ printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -a -d -pass 
 
 - - -
 
-## Lesson 1-2
+## Programming
 
 Slides:
 ```
@@ -140,4 +139,14 @@ Fare un Programma che stampa un numero di fibonacci specifico
 >: Bye
 ```
 
+#### Game on Programming
+**Human Resource Machine** - [link](https://tomorrowcorporation.com/humanresourcemachine)
+> _Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! Don't worry if you've never programmed before - programming is just puzzle solving. If you strip away all the 1's and 0's and scary squiggly brackets, programming is actually simple, logical, beautiful, and something that anyone can understand and have fun with!_
+
 - - -
+
+## Git
+
+Sito interattivo per imparare i comandi git
+https://learngitbranching.js.org/
+
