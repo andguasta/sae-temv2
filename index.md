@@ -146,5 +146,9 @@ Fare un Programma che stampa un numero di fibonacci specifico
 
 ## Git
 
-Sito interattivo per imparare i comandi git: [Learn Git Branching](https://learngitbranching.js.org/)
-
+[**Learn Git Branching**](https://learngitbranching.js.org/) - Sito interattivo per imparare i comandi git
+[**Ry’s Git Tutorial**](https://johnmathews.is/rys-git-tutorial.html) - Libro facile e gratuito su git
+[**Pro Git Book**](https://git-scm.com/book/en/v2) - uno dei libri più completi su git disponibile gratuitamente
+[**Lezione del MIT**](https://missing.csail.mit.edu/2020/version-control/) sul Version Control
+[**Git Cheat Sheets 1**](https://education.github.com/git-cheat-sheet-education.pdf) - [**Git Cheat Sheets 2**](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+Come Costruire un file **.gitignore** - [Atlassian](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
