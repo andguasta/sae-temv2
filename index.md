@@ -143,12 +143,34 @@ Fare un Programma che stampa un numero di fibonacci specifico
 > _Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! Don't worry if you've never programmed before - programming is just puzzle solving. If you strip away all the 1's and 0's and scary squiggly brackets, programming is actually simple, logical, beautiful, and something that anyone can understand and have fun with!_
 
 - - -
-
 ## Git
 
 [**Learn Git Branching**](https://learngitbranching.js.org/) - Sito interattivo per imparare i comandi git
+
 [**Ry’s Git Tutorial**](https://johnmathews.is/rys-git-tutorial.html) - Libro facile e gratuito su git
+
 [**Pro Git Book**](https://git-scm.com/book/en/v2) - uno dei libri più completi su git disponibile gratuitamente
+
 [**Lezione del MIT**](https://missing.csail.mit.edu/2020/version-control/) sul Version Control
+
 [**Git Cheat Sheets 1**](https://education.github.com/git-cheat-sheet-education.pdf) - [**Git Cheat Sheets 2**](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+
 Come Costruire un file **.gitignore** - [Atlassian](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+```
+#Questo è un esempio di gitignore che si può usare in un progetto Wwise
+*.prof
+*.akd
+*.validationcache
+GeneratedSoundBanks
+.cache
+.backup
+*.crossover.wsettings
+AutoDetectedSampleRates.cache
+.DS_Store
+```
+
+I commit git hanno un numero esadecimale che li identifica in maniera univoca. Quel numero è un hash del contenuto del commit. Sul concetto di hash nel contesto delle password c’è questo video interessante: [How NOT to Store Passwords! - Computerphile](https://www.youtube.com/watch?v=8ZtInClXe1Q)
+
+Come gestire i branch: [**A successful Git branching model**](https://nvie.com/posts/a-successful-git-branching-model/)
+
+- - -
