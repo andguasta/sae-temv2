@@ -178,7 +178,7 @@ Come gestire i branch: [**A successful Git branching model**](https://nvie.com/p
 - - -
 ### MIDI Lesson
 
-Consultare Capitolo 4 da Audio Engineer's Reference Book by Michael Talbot-Smith su Material Page
+Consultare Capitolo 4 da **Audio Engineer's Reference Book** by **Michael Talbot-Smith** su Material Page
 
 Video su come funzionano i numeri **Binari**
 - Representing Numbers and Letters with Binary: Crash Course Computer Science [https://www.youtube.com/watch?v=1GSjbWt0c9M](https://www.youtube.com/watch?v=1GSjbWt0c9M)  
@@ -195,11 +195,12 @@ Come costruire un **Logic Gate** con i **Transistors**
 **Midi Files Structure** from Stanford
 - [https://ccrma.stanford.edu/~craig/14q/midifile/MidiFileFormat.html](https://ccrma.stanford.edu/~craig/14q/midifile/MidiFileFormat.html)  
 
-More on Midi Files and Midi
+More on **Midi Files** and **Midi**
 - Musical Instrument Digital Interface (MIDI) [https://www.recordingblogs.com/wiki/musical-instrument-digital-interface-midi](https://www.recordingblogs.com/wiki/musical-instrument-digital-interface-midi)
 - Standard MIDI file format [http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html](http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html)
 - - - 
-### 4.Unity Material
+
+### Unity Material
 
 Questo è del materiale aggiuntivo utile per approfondire Unity:
 
@@ -218,7 +219,7 @@ Questo è del materiale aggiuntivo utile per approfondire Unity:
 
 - - -
 ### 5.Bash & Bash Tools
-![[SAE_Websites/sae-temv2/assets/img/NeverSpend5minuts.jpeg]]
+![[assets/img/NeverSpend5minuts.jpeg]]
 
 **The Linux Command Line: A Complete Introduction Book by William E. Shotts**
 Online Edition:
@@ -251,7 +252,7 @@ From Material Folder:
 
 **Sublime Text Editor** [https://www.sublimetext.com/](https://www.sublimetext.com/)  
 
-GUID Generator [https://www.guidgenerator.com/](https://www.guidgenerator.com/)  
+**GUID Generator **[https://www.guidgenerator.com/](https://www.guidgenerator.com/)  
 
 > [!info] Universally unique identifier - Wikipedia  
 > A universally unique identifier ( UUID) is a 128-bit label used for information in computer systems. The term globally unique identifier ( GUID) is also used, often in software created by Microsoft. When generated according to the standard methods, UUIDs are, for practical purposes, unique.  
@@ -263,7 +264,7 @@ GUID Generator [https://www.guidgenerator.com/](https://www.guidgenerator.com/)
 
 **History of XML** [https://www.youtube.com/watch?v=RH0o-QjnwDg](https://www.youtube.com/watch?v=RH0o-QjnwDg)  
 
-XML Specification [https://www.xml.com/axml/axml.html](https://www.xml.com/axml/axml.html)  
+**XML Specification** [https://www.xml.com/axml/axml.html](https://www.xml.com/axml/axml.html)  
 
 - - -
 ### Files and Files System
