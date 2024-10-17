@@ -4,15 +4,15 @@ subtitle: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2.
 thumbnail-img: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
 cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header1.png
 ---
-| Course Software  | Course Program              |
-| ---------------- | --------------------------- |
-| Unity 2020.3 Lts | Introduction to Programming |
-| - Visual Studio  | Advanced Music              |
-| - Mac Buils      | Large Project Management    |
-| Wwise 2019.2.15  | Version Control             |
-| Git              | Game Engine Integration     |
-| Sublime Text     | Resources Optimisation      |
-| Sublime Merge    |                             |
+| *Course* Software | Course Program              |
+| ----------------- | --------------------------- |
+| Unity 2020.3 Lts  | Introduction to Programming |
+| - Visual Studio   | Advanced Music              |
+| - Mac Buils       | Large Project Management    |
+| Wwise 2019.2.15   | Version Control             |
+| Git               | Game Engine Integration     |
+| Sublime Text      | Resources Optimisation      |
+| Sublime Merge     |                             |
 
 - - -
 
@@ -29,12 +29,12 @@ U2FsdGVkX19fYOVSoEE/ilXJRPfEQt1v7Y0PYIAsc67H6cfXnCo40nrycJed1yfl\nipD4hp5UROFb3W
 - **Designing Sound** by Andy Farnell [link mitpress](https://mitpress.mit.edu/books/designing-sound)
     - Procedural Audio and Synthesis
     - Accessibile come studenti SAE nella e-library
-- **The Audio Programming Book** by Richard Boulanger and Victor Lazzarini [link mitpress](https://mitpress.mit.edu/books/audio-programming-book)
+- **The Audio Programming Book** by Richard Boulanger and Victor Lazzarini [link mitpress](https://mitpress.mit.edu/9780262014465/the-audio-programming-book/)
     - Come si utilizza C nell'audio e come si implementano effetti e sintesi.
-- **Microsound** By Curtis Roads [link mitpress](https://mitpress.mit.edu/books/microsound)
+- **Microsound** By Curtis Roads [link mitpress](https://mitpress.mit.edu/9780262681544/microsound/)
     - Sulla sintesi Granulare
     - Accessibile come studenti SAE nella e-library
-- **The Computer Music Tutorial** By Curtis Roads [link mitpress](https://mitpress.mit.edu/books/computer-music-tutorial)
+- **The Computer Music Tutorial** By Curtis Roads [link mitpress](https://mitpress.mit.edu/9780262680820/the-computer-music-tutorial/)
     - Copre tantissime tecniche di sintesi e di DSP. Libro molto importante per chi è interessato all'aspetto tecnico del sound design
 - **Audio Engineer's Reference Book** by Michael Talbot-Smith [link routledge](https://www.routledge.com/Audio-Engineers-Reference-Book/Talbot-Smith/p/book/9780240516851)
     - Accessibile come studenti SAE nella e-library
