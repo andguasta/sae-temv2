@@ -84,8 +84,3 @@ Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/2014
 Libro su C: **Head First C** by David Griffiths [link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
 
 ![CBook](assets/img/HeadFirstC.jpeg)
-
-**Recursion:** Bella Talk sulla Recursion: [Link Youtube](https://www.youtube.com/watch?v=tAKfA3Lfvi0)
-
-Fare pratica su sololearn di quello che è stato fatto in classe con i primi due moduli di questo corso: **Basic Concepts + Conditionals and Loops + moduli 15.1 e 16.1 sulle Funzioni**
-[Link Sololearn](https://www.sololearn.com/learn/courses/c-introduction)
