@@ -53,12 +53,9 @@ U2FsdGVkX19s1UUZgkZ1ENbJqFhjzFvtWuvTDRp9/FDp1EROba7csviILxIlZULT\nVLyDjl+k1HPSDo
 ## Lessons
 #### How to decode the Google Drive string
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
-
 ```bash
-printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -a -d -pass pass:password
+printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -pbkdf2 -a -d -pass pass:password
 ```
-
-
 - **`printf`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `printf "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
 - **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
 - **`openssl`** è un toolkit open-source per SSL/TLS e crittografia. Offre funzionalità come comunicazione sicura, generazione di chiavi e gestione dei certificati.
