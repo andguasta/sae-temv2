@@ -70,11 +70,6 @@ printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -pbkdf2 -a 
 
 ## Programming
 
-Slides:
-```
-U2FsdGVkX1/Ay6JI9p3pJTr0MgTu4yvh2xTMtI7FAsmhDRDbgh5s5l1mdkubAhmQ\nnlzTAVYgcShtI40zXGguvA7HEAgUlkknPSfZmrU41r4+SY2Na6eqb1h+KgOw+jvN\nD28PA+0TkBXHjoC7+HpryhpdNs0SOnyGoAQToWciBRRwCWKzRcWjToi48B1dwq+c\nAgQGoOryuufI3tZY99yP4DmAq02R7JP6l1G6Sm6obVpB6ZrwB8H2enfVKpWZOph5
-```
-
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
 - **Wandbox**: [wandbox.org](https://wandbox.org/)
 - **OnlineGDB**: [onlinegdb.com](https://www.onlinegdb.com/)
