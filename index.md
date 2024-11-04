@@ -79,3 +79,27 @@ Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/2014
 Libro su C: **Head First C** by David Griffiths [link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
 
 ![CBook](assets/img/HeadFirstC.jpeg)
+#### Esercizio da Fare per la lezione 3: Mario
+![MarioBlocks](assets/img/SuperMarioBlocks.jpeg)
+
+Fare un programma che chiede all’utente un’altezza e restituisce una piramide ostacolo simile a quella che si trova in Super Mario. (La piramide deve essere simmetrica verticalmente) La massima altezza possibile deve essere 10.
+
+```
+//">:" Rappresenta del testo stampato dal programma 
+//"<:" Rappresenta l'input dell'utente 
+>: Height: 
+><: -1 
+>>: Height: 
+<: 0 
+>: Height: 
+<: 90 
+>: Height: 
+<: 43 
+>: Height: 
+<: 4 
+>: 
+   # # 
+  ## ## 
+ ### ### 
+#### ####
+```
