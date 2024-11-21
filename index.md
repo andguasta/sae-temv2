@@ -138,8 +138,8 @@ More on **Midi Files** and **Midi**
 
 - - -
 ### 5.Bash & Bash Tools
-![[sae-temv2/assets/img/NeverSpend5minuts.jpeg]]
 
+![NeverSpend](sae-temv2/assets/img/NeverSpend5minuts.jpeg)
 **The Linux Command Line: A Complete Introduction Book by William E. Shotts**
 Online Edition:
 > [!info] LinuxCommand.org: Learning the shell.  
