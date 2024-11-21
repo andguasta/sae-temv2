@@ -103,3 +103,145 @@ Fare un programma che chiede all’utente un’altezza e restituisce una piramid
  ### ### 
 #### ####
 ```
+
+**Game on Programming: Human Resource Machine** - [link](https://tomorrowcorporation.com/humanresourcemachine)
+> _Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! Don't worry if you've never programmed before - programming is just puzzle solving. If you strip away all the 1's and 0's and scary squiggly brackets, programming is actually simple, logical, beautiful, and something that anyone can understand and have fun with!_
+
+#### Talk da Guardare:
+> [!info] The Art of Code - Dylan Beattie  
+> Software and technology has changed every aspect of the world we live in. At one extreme are the 'mission critical' applications - the code that runs our banks, our hospitals, our airports and phone networks. Then there's the code we all use every day to browse the web, watch movies, create spreadsheets...  
+> [https://www.youtube.com/watch?v=6avJHaC3C2U](https://www.youtube.com/watch?v=6avJHaC3C2U)  
+
+---
+### MIDI Lesson
+
+Consultare Capitolo 4 da **Audio Engineer's Reference Book** by **Michael Talbot-Smith** su Material Page
+
+Video su come funzionano i numeri **Binari**
+- Representing Numbers and Letters with Binary: Crash Course Computer Science [https://www.youtube.com/watch?v=1GSjbWt0c9M](https://www.youtube.com/watch?v=1GSjbWt0c9M)  
+
+Video su cosa sono le **Logic Units**
+- How Computers Calculate - the ALU: Crash Course Computer Science [https://www.youtube.com/watch?v=1I5ZMmrOfnA](https://www.youtube.com/watch?v=1I5ZMmrOfnA)  
+
+Come costruire un **Logic Gate** con i **Transistors**
+- Making logic gates from transistors [https://www.youtube.com/watch?v=sTu3LwpF6XI](https://www.youtube.com/watch?v=sTu3LwpF6XI)  
+
+**Layers** in Protocols
+- OSI model [https://en.wikipedia.org/wiki/OSI_model](https://en.wikipedia.org/wiki/OSI_model)  
+
+**Midi Files Structure** from Stanford
+- [https://ccrma.stanford.edu/~craig/14q/midifile/MidiFileFormat.html](https://ccrma.stanford.edu/~craig/14q/midifile/MidiFileFormat.html)  
+
+More on **Midi Files** and **Midi**
+- Musical Instrument Digital Interface (MIDI) [https://www.recordingblogs.com/wiki/musical-instrument-digital-interface-midi](https://www.recordingblogs.com/wiki/musical-instrument-digital-interface-midi)
+- Standard MIDI file format [http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html](http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html)
+- - -
+### 5.Bash & Bash Tools
+![[assets/img/NeverSpend5minuts.jpeg]]
+
+**The Linux Command Line: A Complete Introduction Book by William E. Shotts**
+Online Edition:
+> [!info] LinuxCommand.org: Learning the shell.  
+> Why do you need to learn the command line anyway? Well, let me tell you a story. Many years ago we had a problem where I worked. There was a shared drive on one of our file servers that kept getting full. I won't mention that this legacy operating system did not support user quotas; that's another story.  
+> [https://linuxcommand.org/lc3_learning_the_shell.php](https://linuxcommand.org/lc3_learning_the_shell.php)  
+
+Free PDF Download: [https://sourceforge.net/projects/linuxcommand/](https://sourceforge.net/projects/linuxcommand/)  
+
+**SOX - The Swiss Army knife of sound processing programs**
+> _SoX is a cross-platform (Windows, Linux, MacOS X, etc.) command line utility that can convert various formats of computer audio files in to other formats. It can also apply various effects to these sound files, and, as an added bonus, SoX can play and record audio files on most platform_
+
+[http://sox.sourceforge.net/](http://sox.sourceforge.net/)  
+
+**youtube-dl**
+
+> _Command-line program to download videos from YouTube.com and other video sites_
+[https://github.com/ytdl-org/youtube-dl/](https://github.com/ytdl-org/youtube-dl/)  
+
+**FFmpeg**
+> _A complete, cross-platform solution to record, convert and stream audio and video._
+[https://www.ffmpeg.org/download.html](https://www.ffmpeg.org/download.html)  
+
+- - -
+### 6.Markup Languages
+
+From Material Folder:
+- Consult: Chapter 1 di **XML in a Nutshell**
+- Consult: Chapter 12 from **How Computer Really Work**
+
+**Sublime Text Editor** [https://www.sublimetext.com/](https://www.sublimetext.com/)  
+
+**GUID Generator **[https://www.guidgenerator.com/](https://www.guidgenerator.com/)  
+
+> [!info] Universally unique identifier - Wikipedia  
+> A universally unique identifier ( UUID) is a 128-bit label used for information in computer systems. The term globally unique identifier ( GUID) is also used, often in software created by Microsoft. When generated according to the standard methods, UUIDs are, for practical purposes, unique.  
+> [https://en.wikipedia.org/wiki/Universally_unique_identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier)  
+
+> [!info] Pigeonhole principle - Wikipedia  
+> In mathematics, the pigeonhole principle states that if items are put into containers, with , then at least one container must contain more than one item.[1] For example, if one has three gloves (and none is ambidextrous/reversible), then there must be at least two right-handed gloves, or at least two left-handed gloves, because there are three objects, but only two categories of handedness to put them into.  
+> [https://en.wikipedia.org/wiki/Pigeonhole_principle](https://en.wikipedia.org/wiki/Pigeonhole_principle)  
+
+**History of XML** [https://www.youtube.com/watch?v=RH0o-QjnwDg](https://www.youtube.com/watch?v=RH0o-QjnwDg)  
+
+**XML Specification** [https://www.xml.com/axml/axml.html](https://www.xml.com/axml/axml.html)  
+
+- - -
+### Files and Files System
+
+Video ben fatto su come funzionano i **File e i File Systems**  https://youtu.be/KN8YgJnShPM  
+
+**Wav Header**
+
+> [!info] WAV - Waveform Audio File Format  
+> WAV, known for WAVE (Waveform Audio File Format), is a subset of Microsoft's Resource Interchange File Format (RIFF) specification for storing digital audio files. The format doesn't apply any compression to the bitstream and stores the audio recordings with different sampling rates and bitrates.  
+> [https://docs.fileformat.com/audio/wav/](https://docs.fileformat.com/audio/wav/)  
+
+> [!info] Microsoft WAVE soundfile format  
+> The WAVE file format is a subset of Microsoft's RIFF specification for the storage of multimedia files. A RIFF file starts out with a file header followed by a sequence of data chunks.  
+> [http://soundfile.sapp.org/doc/WaveFormat/](http://soundfile.sapp.org/doc/WaveFormat/)  
+
+- - -
+## Git
+
+[**Learn Git Branching**](https://learngitbranching.js.org/) - Sito interattivo per imparare i comandi git
+
+[**Ry’s Git Tutorial**](https://johnmathews.is/rys-git-tutorial.html) - Libro facile e gratuito su git
+
+[**Pro Git Book**](https://git-scm.com/book/en/v2) - uno dei libri più completi su git disponibile gratuitamente
+
+[**Lezione del MIT**](https://missing.csail.mit.edu/2020/version-control/) sul Version Control
+
+[**Git Cheat Sheets 1**](https://education.github.com/git-cheat-sheet-education.pdf) - [**Git Cheat Sheets 2**](https://about.gitlab.com/images/press/git-cheat-sheet.pdf)
+
+Come Costruire un file **.gitignore** - [Atlassian](https://www.atlassian.com/git/tutorials/saving-changes/gitignore)
+```
+#Questo è un esempio di gitignore che si può usare in un progetto Wwise
+*.prof
+*.akd
+*.validationcache
+GeneratedSoundBanks
+.cache
+.backup
+*.crossover.wsettings
+AutoDetectedSampleRates.cache
+.DS_Store
+```
+
+I commit git hanno un numero esadecimale che li identifica in maniera univoca. Quel numero è un hash del contenuto del commit. Sul concetto di hash nel contesto delle password c’è questo video interessante: [How NOT to Store Passwords! - Computerphile](https://www.youtube.com/watch?v=8ZtInClXe1Q)
+
+Come gestire i branch: [**A successful Git branching model**](https://nvie.com/posts/a-successful-git-branching-model/)
+
+- - -
+### Unity Material
+Questo è del materiale aggiuntivo utile per approfondire Unity:
+**Unity Essentials - Corso Introduttivo Ufficiale di Unity**  
+[https://learn.unity.com/pathway/unity-essentials](https://learn.unity.com/pathway/unity-essentials)  
+**Junior Programmer - Corso Ufficiale sullo scripting ed altro**  
+[https://learn.unity.com/pathway/junior-programmer](https://learn.unity.com/pathway/junior-programmer)  
+**Complete C# Unity Game Developer 3D - Corso ben fatto e a poco prezzo su Udemy**  
+[https://www.udemy.com/course/unitycourse2/](https://www.udemy.com/course/unitycourse2/)
+
+**Script Lifecycle** flowchart
+- Order of execution for event functions [https://docs.unity3d.com/Manual/ExecutionOrder.html](https://docs.unity3d.com/Manual/ExecutionOrder.html)
+
+- - -
+
