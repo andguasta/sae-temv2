@@ -108,7 +108,7 @@ Fare un programma che chiede all’utente un’altezza e restituisce una piramid
 > _Human Resource Machine is a puzzle game. In each level, your boss gives you a job. Automate it by programming your little office worker! Don't worry if you've never programmed before - programming is just puzzle solving. If you strip away all the 1's and 0's and scary squiggly brackets, programming is actually simple, logical, beautiful, and something that anyone can understand and have fun with!_
 
 #### Talk da Guardare:
-> [!info] The Art of Code - Dylan Beattie  
+> The Art of Code - Dylan Beattie  
 > Software and technology has changed every aspect of the world we live in. At one extreme are the 'mission critical' applications - the code that runs our banks, our hospitals, our airports and phone networks. Then there's the code we all use every day to browse the web, watch movies, create spreadsheets...  
 > [https://www.youtube.com/watch?v=6avJHaC3C2U](https://www.youtube.com/watch?v=6avJHaC3C2U)  
 
@@ -135,9 +135,10 @@ Come costruire un **Logic Gate** con i **Transistors**
 More on **Midi Files** and **Midi**
 - Musical Instrument Digital Interface (MIDI) [https://www.recordingblogs.com/wiki/musical-instrument-digital-interface-midi](https://www.recordingblogs.com/wiki/musical-instrument-digital-interface-midi)
 - Standard MIDI file format [http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html](http://www.music.mcgill.ca/~ich/classes/mumt306/StandardMIDIfileformat.html)
+
 - - -
 ### 5.Bash & Bash Tools
-![[assets/img/NeverSpend5minuts.jpeg]]
+![[sae-temv2/assets/img/NeverSpend5minuts.jpeg]]
 
 **The Linux Command Line: A Complete Introduction Book by William E. Shotts**
 Online Edition:
