@@ -10,11 +10,11 @@ Next, create another folder inside the main one with your project name, for exam
 Upload the _Originals_ folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface.  
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
-![[Screenshot 2024-11-27 at 15.38.15.png|500]]
+![alt|400](GDrive_ShareButton.png)
 At this point share the folder with the other team mates giving them full editing permissions.
 The team mates that have received the shared folder will create a folder mentioned before to store their wwise projects: `wwise_projects`
 At this point the team mates should find the **shared folder** section on the left menu
-![[Screenshot 2024-11-27 at 15.42.51.png|200]]
+![[GDrive_Menu.png|200]]
 In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut in the `wwise_projects` folder.
 At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder.
 Great now let's use rclone.
