@@ -154,7 +154,7 @@ scope = drive
 token = {"access_token":"dnsakdnskabdashbdjsab","token_type":"fdjkda","refresh_token":"ds ajdnsajbndsjabdsjahfkjds","expiry":"2024-11-27T16:06:41.902997+01:00"}
 team_drive = 
 ```
-After the token line let's add another setting named `root_folder_id = .  
+After the token line let's add another setting named `root_folder_id =`    
 This will change the **root folder** from the main drive folder to the one with all your Wwise projects.   
 To find the **folder id** go to the Google Drive website, navigate to the folder `wwise_projects` and look at the url. It should look something like this:
 drive.google.com/drive/folders/3ulmIpRhLL3gc0n28Za0989wSkzunRWMm?role=writer  
