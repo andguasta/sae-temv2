@@ -29,16 +29,12 @@ Next they should find the **Shared with Me** section on the left menu
 
 ![image](assets/img/GDrive_Menu.png)
 
-In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut inside the `wwise_projects` folder.
-
-At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder.
-
-Great now let's use **rclone**.
-
-Install rclone following the instructions showed in this page: [https://rclone.org/install/](https://rclone.org/install/)
-Once **installed** let's setup Google Drive with rclone
-
-run the command `rclone config`
+In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut inside the `wwise_projects` folder.  
+At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder.  
+Great now let's use **rclone**.  
+Install rclone following the instructions showed in this page: [https://rclone.org/install/](https://rclone.org/install/)  
+Once **installed** let's setup Google Drive with rclone  
+Run the command `rclone config`
 
 Then start the interactive wizard choosing this options
 ```
@@ -156,9 +152,10 @@ team_drive =
 ```
 After the token line let's add another setting named `root_folder_id =`    
 This will change the **root folder** from the main drive folder to the one with all your Wwise projects.  
-To find the **folder id** go to the Google Drive website, navigate to the folder `wwise_projects` and look at the url. It should look something like this:  
+To find the **folder id** go to the Google Drive website, navigate to the folder `wwise_projects` and look at the url.  
+It should look something like this:  
 drive.google.com/drive/folders/3ulmIpRhLL3gc0n28Za0989wSkzunRWMm?role=writer  
-This is the part we need:  
+This is the part we need:   
 `drive.google.com/drive/folders/ --> 3ulmIpRhLL3gc0n28Za0989wSkzunRWMm <-- ?role=writer`
 
 Paste it after `root_folder_id` in order to obtain this:
