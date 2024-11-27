@@ -1,16 +1,20 @@
-We can use Rclone to sync the Wwise _Originals_ folder with teammates, enabling us to use Git for versioning without running into GitHub's file size limit issues, whether for a single asset or the global repository limit when using Git LFS (Large File Storage).
+## Using Rclone and GDrive with Wwise to manage asset files
 
-Another possible solution is to keep the _Originals_ folder in a separate location and let the Google Drive desktop application handle syncing. However, I find this approach prone to errors and problems due to the way the Google Drive app operates.
+We can use Rclone to sync the Wwise `Originals` folder with teammates, enabling us to use Git for versioning without running into GitHub's file size limit issues, whether for a single asset or the global repository limit when using Git LFS (Large File Storage).
+
+> [!info]
+> Another possible solution is to keep the `Originals` folder in a separate location and let the Google Drive desktop application handle syncing. However, I find this approach prone to errors and problems due to the way the Google Drive app operates.
 
 It is possible to use other services, but keep in mind that not all services correctly handle shared folders with Rclone (e.g., Mega).
 
-For the first step, the team member managing the repository will create a folder on their Google Drive account named `wwise_projects`. This folder will store all the files for all projects.  
+For the **first step**, the team member managing the repository will create a folder on their Google Drive account named `wwise_projects`. 
+This folder will store all the files for all projects the person will be using in the future. 
 Next, create another folder inside the main one with your project name, for example, `temv2_proj`.
 
-Upload the _Originals_ folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface.  
+Upload the `Originals` folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface.  
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
-![alt|400](GDrive_ShareButton.png)
+![alt|400](./assets/img/GDrive_ShareButton.png)
 At this point share the folder with the other team mates giving them full editing permissions.
 The team mates that have received the shared folder will create a folder mentioned before to store their wwise projects: `wwise_projects`
 At this point the team mates should find the **shared folder** section on the left menu
