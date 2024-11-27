@@ -1,5 +1,7 @@
-### Using Rclone and GDrive with Wwise to manage asset files
-
+---
+title: Wwise, Git and Rclone
+subtitle: "Using Rclone and GDrive with Wwise to manage large asset files"
+---
 We can use Rclone to sync the Wwise `Originals` folder with teammates, enabling us to use Git for versioning without running into GitHub's file size limit issues, whether for a single asset or the global repository limit when using Git LFS (Large File Storage).
 
 > [!info]
@@ -15,9 +17,9 @@ Upload the `Originals` folder of your Wwise project (this folder should contain 
 
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
-![|500](assets/img/GDrive_ShareButton.png)
+![alt|500](assets/img/GDrive_ShareButton.png)
 
-![alt|400](./assets/img/GDrive_ShareButton.png)
+![alt|400](assets/img/GDrive_ShareButton.png)
 
 At this point share the folder with the other team mates giving them full editing permissions.
 
