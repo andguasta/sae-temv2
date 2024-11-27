@@ -4,7 +4,7 @@ subtitle: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2.
 thumbnail-img: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
 cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header1.png
 ---
-[[blog_test]]
+[blog_test](blog_test)
 
 | *Course* Software | Course Program              |
 | ----------------- | --------------------------- |
