@@ -173,9 +173,9 @@ If we run `rclone lsd Wwise_proj:` now we should only see the folder `temv2_proj
 Now we are ready to copy the content of the drive folder to our Wwise project.  
 For the scope of this tutorial let's assume my Wwise project is placed at this path on my computer. `~/Desktop/projects/temv2_proj`  
 We can simply run this command to copy the files: `rclone copy Wwise_proj:temv2_proj/Originals ~/Desktop/projects/temv2_proj/Originals`  
-After running this command all file will be placed in the original folder, now your local project has the same assets as the remote folder.  
+After running this command all file will be placed in the `Originals` folder, now your local project has the same assets as the remote folder.
 
 If you add some files to the Wwise project and you want to update the remote folder with your file you can just reverse the command:  
 `rclone copy ~/Desktop/projects/temv2_proj/Originals Wwise_proj:temv2_proj/Originals`  
 
-Now your files have been updated to the remote folder and all the teamates can access them.
+Now your files have been updated to the remote folder and all the teamates can access them!
