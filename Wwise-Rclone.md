@@ -146,7 +146,7 @@ In order to do this let's add an option to our `rclone config`.
 To check where our `config` is stored you can type this command: `rclong config file` and it will return the path.
 Go to that place and open the file `rclone.conf` with a text editor.
 
-Now your config file should look something like this:
+Your config file should look something like this:
 ```
 [wwise-proj]
 type = drive
@@ -154,11 +154,10 @@ scope = drive
 token = {"access_token":"dnsakdnskabdashbdjsab","token_type":"fdjkda","refresh_token":"ds ajdnsajbndsjabdsjahfkjds","expiry":"2024-11-27T16:06:41.902997+01:00"}
 team_drive = 
 ```
-After the token line let's add another setting named `root_folder_id = ` 
-This will change the **root folder** from the main drive folder to the one with all your Wwise projects. 
+After the token line let's add another setting named `root_folder_id = .  
+This will change the **root folder** from the main drive folder to the one with all your Wwise projects.   
 To find the **folder id** go to the Google Drive website, navigate to the folder `wwise_projects` and look at the url. It should look something like this:
-drive.google.com/drive/folders/3ulmIpRhLL3gc0n28Za0989wSkzunRWMm?role=writer
-
+drive.google.com/drive/folders/3ulmIpRhLL3gc0n28Za0989wSkzunRWMm?role=writer  
 This is the part we need:
 `drive.google.com/drive/folders/ --> 3ulmIpRhLL3gc0n28Za0989wSkzunRWMm <-- ?role=writer`
 
