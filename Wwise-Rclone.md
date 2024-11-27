@@ -4,13 +4,13 @@ subtitle: "Using Rclone and GDrive with Wwise to manage large asset files"
 ---
 We can use Rclone to sync the Wwise `Originals` folder with teammates, enabling us to use Git for versioning without running into GitHub's file size limit issues, whether for a single asset or the global repository limit when using Git LFS (Large File Storage).
 
-> [!info]
-> Another possible solution is to keep the `Originals` folder in a separate location and let the Google Drive desktop application handle syncing. However, I find this approach prone to errors and problems due to the way the Google Drive app operates.
+This tutorial was created on a Mac but is not specific to any platform. My \*nix friends should have no issues, and Windows users just need to pay attention to the different way paths are expressed in their OS.
 
-It is possible to use other services, but keep in mind that not all services correctly handle shared folders with Rclone (e.g., Mega).
+> Another possible solution to the problem adressed here is to keep the `Originals` folder in a separate location and let the Google Drive desktop application handle syncing. However, I find this approach prone to errors and problems due to the way the Google Drive app operates.  
+> It is possible to use other cloud services, but keep in mind that not all services correctly handle shared folders with Rclone (e.g., Mega).
 
-For the **first step**, the team member managing the repository will create a folder on their Google Drive account named `wwise_projects`. 
-This folder will store all the files for all projects the person will be using in the future. 
+For the **first step**, the team member managing the repository will create a folder on their Google Drive account named `wwise_projects`.  
+This folder will store all the files for all projects the person will be using in the future.  
 Next, create another folder inside the main one with your project name, for example, `temv2_proj`.
 
 Upload the `Originals` folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface. 
@@ -23,7 +23,7 @@ Once you’ve finished uploading the folder to Drive, press the share button on 
 At this point share the folder with the other team mates giving them full editing permissions.
 
 Now the **other team member** can also setup their Google Drive.
-They can also create the folder mentioned before to store their wwise projects: `wwise_projects`
+They can also create the folder mentioned before to store their Wwise projects: `wwise_projects`
 
 Next they should find the **Shared with Me** section on the left menu
 
@@ -48,7 +48,7 @@ n/r/c/s/q> n
 ```
 
 ```
-name> wwise_proj
+name> Wwise_proj
 ```
 
 ```
@@ -133,7 +133,7 @@ y/e/d> y
 ```
 
 After this setup step rclone is connected with google drive.
-let's run `rclone lsd wwise_proj:` to list all directories on gdrive.
+let's run `rclone lsd Wwise_proj:` to list all directories on gdrive.
 
 Now `wwise_proj rclone config` is linked to your Google Drive main folder, we want to keep the `wwise_proj rclone config` scoped to only the folder we are using for Wwise. 
 
@@ -168,13 +168,13 @@ root_folder_id = 3ulmIpRhLL3gc0n28Za0989wSkzunRWMm
 team_drive = 
 ```
 
-If we run `rclone lsd wwise_proj:` now we should only see the folder `temv2_proj`  
+If we run `rclone lsd Wwise_proj:` now we should only see the folder `temv2_proj`  
 Now we are ready to copy the content of the drive folder to our Wwise project.  
-For the scope of this tutorial let's assume my wwise project is placed at this path on my computer. `~/Desktop/projects/temv2_proj`  
-We can simply run this command to copy the files: `rclone copy wwise_proj:temv2_proj/Originals ~/Desktop/projects/temv2_proj/Originals`  
+For the scope of this tutorial let's assume my Wwise project is placed at this path on my computer. `~/Desktop/projects/temv2_proj`  
+We can simply run this command to copy the files: `rclone copy Wwise_proj:temv2_proj/Originals ~/Desktop/projects/temv2_proj/Originals`  
 After running this command all file will be placed in the original folder, now your local project has the same assets as the remote folder.  
 
 If you add some files to the Wwise project and you want to update the remote folder with your file you can just reverse the command:  
-`rclone copy ~/Desktop/projects/temv2_proj/Originals wwise_proj:temv2_proj/Originals`  
+`rclone copy ~/Desktop/projects/temv2_proj/Originals Wwise_proj:temv2_proj/Originals`  
 
 Now your files have been updated to the remote folder and all the teamates can access them.
