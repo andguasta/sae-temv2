@@ -1,4 +1,4 @@
-#### Using Rclone and GDrive with Wwise to manage asset files
+### Using Rclone and GDrive with Wwise to manage asset files
 
 We can use Rclone to sync the Wwise `Originals` folder with teammates, enabling us to use Git for versioning without running into GitHub's file size limit issues, whether for a single asset or the global repository limit when using Git LFS (Large File Storage).
 
@@ -32,7 +32,7 @@ At this point go to your `My Drive` navigate to the `wwise_projects` and verify 
 
 Great now let's use **rclone**.
 
-Install rclone following the instructions showed in this page: https://rclone.org/install/
+Install rclone following the instructions showed in this page: [https://rclone.org/install/](https://rclone.org/install/)
 Once **installed** let's setup Google Drive with rclone
 
 run the command `rclone config`
