@@ -1,4 +1,4 @@
-## Using Rclone and GDrive with Wwise to manage asset files
+#### Using Rclone and GDrive with Wwise to manage asset files
 
 We can use Rclone to sync the Wwise `Originals` folder with teammates, enabling us to use Git for versioning without running into GitHub's file size limit issues, whether for a single asset or the global repository limit when using Git LFS (Large File Storage).
 
@@ -11,20 +11,32 @@ For the **first step**, the team member managing the repository will create a fo
 This folder will store all the files for all projects the person will be using in the future. 
 Next, create another folder inside the main one with your project name, for example, `temv2_proj`.
 
-Upload the `Originals` folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface.  
+Upload the `Originals` folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface. 
+
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
 ![alt|400](./assets/img/GDrive_ShareButton.png)
+
 At this point share the folder with the other team mates giving them full editing permissions.
-The team mates that have received the shared folder will create a folder mentioned before to store their wwise projects: `wwise_projects`
-At this point the team mates should find the **shared folder** section on the left menu
-![[GDrive_Menu.png|200]]
-In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut in the `wwise_projects` folder.
+
+Now the **other team member** can also setup their Google Drive.
+They can also create the folder mentioned before to store their wwise projects: `wwise_projects`
+
+Next they should find the **Shared with Me** section on the left menu
+
+![alt|200](./assets/img/GDrive_Menu.png)
+
+In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut inside the `wwise_projects` folder.
+
 At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder.
-Great now let's use rclone.
+
+Great now let's use **rclone**.
+
 Install rclone following the instructions showed in this page: https://rclone.org/install/
-Once installed let's setup google drive with rclone
+Once **installed** let's setup Google Drive with rclone
+
 run the command `rclone config`
+
 Then start the interactive wizard choosing this options
 ```
 No remotes found, make a new one?
@@ -123,6 +135,7 @@ y/e/d> y
 
 After this setup step rclone is connected with google drive.
 let's run `rclone lsd wwise_proj:` to list all directories on gdrive.
+
 Now `wwise_proj` rclone config is linked to your google drive main folder, we want to keep the wwise_proj rclone config scoped to only the folder we are using for wwise. In order to do this let's add an option to our rclone config. To check where our confing is stored you can type this command: `rclong config file` and it will return the path. Go to that place and open the file `rclone.conf` with a text editor.
 Now your config file should look something like this:
 ```
