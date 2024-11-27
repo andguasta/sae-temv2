@@ -140,8 +140,10 @@ After this setup step rclone is connected with google drive.
 let's run `rclone lsd wwise_proj:` to list all directories on gdrive.
 
 Now `wwise_proj rclone config` is linked to your Google Drive main folder, we want to keep the `wwise_proj rclone config` scoped to only the folder we are using for Wwise. 
+
 In order to do this let's add an option to our `rclone config`. 
-To check where our `config` is stored you can type this command: `rclong config file` and it will return the path. 
+
+To check where our `config` is stored you can type this command: `rclong config file` and it will return the path.
 Go to that place and open the file `rclone.conf` with a text editor.
 
 Now your config file should look something like this:
