@@ -27,7 +27,7 @@ They can also create the folder mentioned before to store their wwise projects: 
 
 Next they should find the **Shared with Me** section on the left menu
 
-![alt|200](./assets/img/GDrive_Menu.png)
+![image](assets/img/GDrive_Menu.png)
 
 In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut inside the `wwise_projects` folder.
 
@@ -139,7 +139,11 @@ y/e/d> y
 After this setup step rclone is connected with google drive.
 let's run `rclone lsd wwise_proj:` to list all directories on gdrive.
 
-Now `wwise_proj` rclone config is linked to your google drive main folder, we want to keep the wwise_proj rclone config scoped to only the folder we are using for wwise. In order to do this let's add an option to our rclone config. To check where our confing is stored you can type this command: `rclong config file` and it will return the path. Go to that place and open the file `rclone.conf` with a text editor.
+Now `wwise_proj rclone config` is linked to your Google Drive main folder, we want to keep the `wwise_proj rclone config` scoped to only the folder we are using for Wwise. 
+In order to do this let's add an option to our `rclone config`. 
+To check where our `config` is stored you can type this command: `rclong config file` and it will return the path. 
+Go to that place and open the file `rclone.conf` with a text editor.
+
 Now your config file should look something like this:
 ```
 [wwise-proj]
@@ -148,10 +152,14 @@ scope = drive
 token = {"access_token":"dnsakdnskabdashbdjsab","token_type":"fdjkda","refresh_token":"ds ajdnsajbndsjabdsjahfkjds","expiry":"2024-11-27T16:06:41.902997+01:00"}
 team_drive = 
 ```
-After the toke line let's add another option named `root_folder_id = ` this will change the root folder from the main drive folder to the one with all your wwise projects. To find the folder id go to the gdrive website, navigate to the folder `wwise_projects` and look at the url it should look something like this:
+After the token line let's add another setting named `root_folder_id = ` 
+This will change the **root folder** from the main drive folder to the one with all your Wwise projects. 
+To find the **folder id** go to the Google Drive website, navigate to the folder `wwise_projects` and look at the url. It should look something like this:
 drive.google.com/drive/folders/3ulmIpRhLL3gc0n28Za0989wSkzunRWMm?role=writer
+
 This is the part we need:
 `drive.google.com/drive/folders/ --> 3ulmIpRhLL3gc0n28Za0989wSkzunRWMm <-- ?role=writer`
+
 Paste it after `root_folder_id` in order to obtain this:
 ```
 [wwise-proj]
