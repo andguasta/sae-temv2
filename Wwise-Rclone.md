@@ -12,8 +12,10 @@ This tutorial was created on a Mac but is not specific to any platform. My \*nix
 For the **first step**, the team member managing the repository will create a folder on their Google Drive account named `wwise_projects`.  
 This folder will store all the files for all projects the person will be using in the future.  
 Next, create another folder inside the main one with your project name, for example, `temv2_proj`.
+At the end of this step you should have a path in your google drive that looks like this: `MyDrive/wwise_projects/temv2_proj`
 
-Upload the `Originals` folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) using the upload button on the Drive web interface. 
+Upload the `Originals` folder of your Wwise project (this folder should contain at least two subfolders named `SFX` and `Voices`) inside the `temv2_proj` folder.  
+To do this use the upload button on the Drive web interface. 
 
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
@@ -23,14 +25,13 @@ Once you’ve finished uploading the folder to Drive, press the share button on 
 At this point share the folder with the other team mates giving them full editing permissions.
 
 Now the **other team member** can also setup their Google Drive.
-They can also create the folder mentioned before to store their Wwise projects: `wwise_projects`
-
-Next they should find the **Shared with Me** section on the left menu
-
+First they need to create the folder mentioned before to store their Wwise projects: `wwise_projects`  
+Next they should find the **Shared with Me** section on the left menu.  
 ![image](assets/img/GDrive_Menu.png)
 
 In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut inside the `wwise_projects` folder.  
-At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder.  
+At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder. 
+
 Great now let's use **rclone**.  
 Install rclone following the instructions showed in this page: [https://rclone.org/install/](https://rclone.org/install/)  
 Once **installed** let's setup Google Drive with rclone  
