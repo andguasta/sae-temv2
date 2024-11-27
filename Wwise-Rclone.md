@@ -17,9 +17,8 @@ Upload the `Originals` folder of your Wwise project (this folder should contain 
 
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
-![alt|500](assets/img/GDrive_ShareButton.png)
 
-![alt|400](assets/img/GDrive_ShareButton.png)
+![image](assets/img/GDrive_ShareButton.png)
 
 At this point share the folder with the other team mates giving them full editing permissions.
 
