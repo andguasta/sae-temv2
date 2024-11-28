@@ -173,8 +173,7 @@ From Material Folder:
 
 **Sublime Text Editor** [https://www.sublimetext.com/](https://www.sublimetext.com/)  
 
-**GUID Generator **[https://www.guidgenerator.com/](https://www.guidgenerator.com/)  
-
+**GUID Generator **[https://www.guidgenerator.com/](https://www.guidgenerator.com/)
 > [!info] Universally unique identifier - Wikipedia  
 > A universally unique identifier ( UUID) is a 128-bit label used for information in computer systems. The term globally unique identifier ( GUID) is also used, often in software created by Microsoft. When generated according to the standard methods, UUIDs are, for practical purposes, unique.  
 > [https://en.wikipedia.org/wiki/Universally_unique_identifier](https://en.wikipedia.org/wiki/Universally_unique_identifier)  
@@ -247,4 +246,3 @@ Questo è del materiale aggiuntivo utile per approfondire Unity:
 - Order of execution for event functions [https://docs.unity3d.com/Manual/ExecutionOrder.html](https://docs.unity3d.com/Manual/ExecutionOrder.html)
 
 - - -
-
