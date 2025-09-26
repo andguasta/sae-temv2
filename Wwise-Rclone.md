@@ -20,14 +20,14 @@ To do this use the upload button on the Drive web interface.
 Once you’ve finished uploading the folder to Drive, press the share button on the `temv2_proj` folder (right-click or use the share option from the web interface).
 
 
-![image](assets/img/GDrive_ShareButton.png)
+![image](SAE/SAE_Websites/sae-temv2/assets/img/GDrive_ShareButton.png)
 
 At this point share the folder with the other team mates giving them full editing permissions.
 
 Now the **other team member** can also setup their Google Drive.
 First they need to create the folder mentioned before to store their Wwise projects: `wwise_projects`  
 Next they should find the **Shared with Me** section on the left menu.  
-![image](assets/img/GDrive_Menu.png)
+![image](SAE/SAE_Websites/sae-temv2/assets/img/GDrive_Menu.png)
 
 In that section you will find the folder shared with you, right click and go to `Organize>Create Shortcut` , create a shortcut inside the `wwise_projects` folder.  
 At this point go to your `My Drive` navigate to the `wwise_projects` and verify the presence of the shortcut inside the folder. 

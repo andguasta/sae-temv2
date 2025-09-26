@@ -4,7 +4,7 @@ subtitle: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2.
 thumbnail-img: https://andguasta.github.io/sae-temv2/assets/img/CourseImage.png
 cover-img: https://andguasta.github.io/sae-temv2/assets/img/Animal_Header1.png
 ---
-[Wwise and Rclone](./Wwise-Rclone)
+[Wwise and Rclone](Wwise-Rclone.md)
 
 | *Course* Software | Course Program              |
 | ----------------- | --------------------------- |
@@ -80,9 +80,9 @@ Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/2014
 
 Libro su C: **Head First C** by David Griffiths [link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
 
-![CBook](assets/img/HeadFirstC.jpeg)
+![CBook](SAE/SAE_Websites/sae-temv2/assets/img/HeadFirstC.jpeg)
 #### Esercizio da Fare per la lezione 3: Mario
-![MarioBlocks](assets/img/SuperMarioBlocks.jpeg)
+![MarioBlocks](SAE/SAE_Websites/sae-temv2/assets/img/SuperMarioBlocks.jpeg)
 
 Fare un programma che chiede all’utente un’altezza e restituisce una piramide ostacolo simile a quella che si trova in Super Mario. (La piramide deve essere simmetrica verticalmente) La massima altezza possibile deve essere 10.
 
@@ -141,7 +141,7 @@ More on **Midi Files** and **Midi**
 - - -
 ### 5.Bash & Bash Tools
 
-![NeverSpend](sae-temv2/assets/img/NeverSpend5minuts.jpeg)
+![NeverSpend](SAE/SAE_Websites/sae-temv2/assets/img/NeverSpend5minuts.jpeg)
 **The Linux Command Line: A Complete Introduction Book by William E. Shotts**
 Online Edition:
 > [!info] LinuxCommand.org: Learning the shell.  
