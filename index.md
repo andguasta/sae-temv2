@@ -2,6 +2,7 @@
 title: TeMV2 - Material Page
 subtitle: "Pagina di supporto al corso Tecniche e Metodologie dei Videogiochi 2. Docente: Andrea Guastadisegni"
 cover-img: https://andguasta.github.io/sae-temv2/assets/img/oldtree_bw.png
+layout: minimal
 ---
 [Wwise and Rclone](Wwise-Rclone.md)
 
