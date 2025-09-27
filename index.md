@@ -71,6 +71,8 @@ printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -pbkdf2 -a 
 
 ## Programming
 
+Da dove viene la parola Algoritmo? [video youtube](https://www.youtube.com/watch?v=oRkNaF0QvnI)
+
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
 - **Wandbox**: [wandbox.org](https://wandbox.org/)
 - **OnlineGDB**: [onlinegdb.com](https://www.onlinegdb.com/)
