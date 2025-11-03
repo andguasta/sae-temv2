@@ -19,7 +19,7 @@ cover-img: https://andguasta.github.io/sae-temv2/assets/img/oldtree_bw.png
 
 Per i **Video** delle lezione e alcuni **Pdf** utili potete accedere a questa cartella Google Drive:
 ```
-U2FsdGVkX19s1UUZgkZ1ENbJqFhjzFvtWuvTDRp9/FDp1EROba7csviILxIlZULT\nVLyDjl+k1HPSDoNUxXYlCvo8Brm7zUweopDCPBKBWIWSSuXqCFfYlwt7e7D9sN0m\nqsixT1C+El057EoCe0PkWQ==
+U2FsdGVkX1/L55dQKmB7VpwFYgn4pxw/4EeoUvJPJNVvBXjDvHXQXwpC4JncLcdYMcmWdTGSugcjIdZnzix3ZoB3qgugmttniruWiF0DOxP2eeIo+W2pZymAkhXb0/jxj6sXli7L5ewHZC91SCFzvQ==\n
 ```
 ---
 
@@ -55,14 +55,13 @@ U2FsdGVkX19s1UUZgkZ1ENbJqFhjzFvtWuvTDRp9/FDp1EROba7csviILxIlZULT\nVLyDjl+k1HPSDo
 #### How to decode the Google Drive string
 Il link è cryptato usando openssl. Potete decifrarlo usando il terminale:
 ```bash
-printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -pbkdf2 -a -d -pass pass:password
+printf "password_here" | openssl enc -aes-256-cbc -a -d -pbkdf2 -pass pass:password
 ```
 - **`printf`** è un comando che viene utilizzato per visualizzare una stringa nel terminale. Ad esempio: `printf "Hello, World!"`; Visualizzerà `"Hello, World!"` nel terminale.
 - **`|`** è un operatore che viene utilizzato per prendere l'output di un comando e usarlo come input per un altro comando. Permette la concatenazione di comandi, dove l'output di un comando viene elaborato da un altro. Consente manipolazioni di dati complesse combinando comandi semplici senza la necessità di salvare risultati intermedi in un file.
 - **`openssl`** è un toolkit open-source per SSL/TLS e crittografia. Offre funzionalità come comunicazione sicura, generazione di chiavi e gestione dei certificati.
 - **`enc`** indica che si desidera cifrare o decifrare dei dati.
-- **`-aes-256-cbc`** Specifica l'algoritmo da utilizzare, in questo caso, AES con una chiave da 256 bit.
-- **`-md sha256`**:  Specifica di utilizzare un algoritmo di hashing che produce un valore hash di 256 bit.
+- **`-aes-256-cbc`** Specifica l'algoritmo da utilizzare, in questo caso, AES con una chiave da 256 bit con opzione **`-pbkdf2`** per usare Password-Based Key Derivation Function 2
 - **`-a`** Questa opzione indica a OpenSSL di codificare l'output in base64. È utile quando i dati devono essere memorizzati e trasferiti su supporti progettati per gestire il testo.
 - **`-d`** Decifra i dati in input. Senza questo flag, l'operazione predefinita sarebbe quella di cifrare.
 - **`-pass pass:password`** Questo è il modo in cui si specifica la passphrase utilizzata per la cifratura o decifrazione. In questo caso, la passphrase è "password".
@@ -71,7 +70,8 @@ printf "Received string here" | openssl enc -aes-256-cbc -md sha256 -pbkdf2 -a 
 
 ## Programming
 
-Da dove viene la parola Algoritmo? [video youtube](https://www.youtube.com/watch?v=oRkNaF0QvnI)
+Da dove viene la parola Algoritmo? - [video youtube](https://www.youtube.com/watch?v=oRkNaF0QvnI)
+The Elegance of the ASCII Table - [Link](https://danq.me/2024/07/21/ascii/)
 
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
 - **Wandbox**: [wandbox.org](https://wandbox.org/)
