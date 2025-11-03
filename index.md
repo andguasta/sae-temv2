@@ -80,8 +80,7 @@ The Elegance of the ASCII Table - [Link](https://danq.me/2024/07/21/ascii/)
 Articolo di Wired su **Dennis Ritchie**: [link](https://web.archive.org/web/20140702035255/https://www.wired.com/2011/10/thedennisritchieeffect/)
 
 Libro su C: **Head First C** by David Griffiths [link oreilly](https://www.oreilly.com/library/view/head-first-c/9781449335649/)
-
-![CBook](SAE/SAE_Websites/sae-temv2/assets/img/HeadFirstC.jpeg)
+![CBook](assets/img/HeadFirstC.jpeg)
 #### Esercizio da Fare per la lezione 3: Mario
 ![MarioBlocks](SAE/SAE_Websites/sae-temv2/assets/img/SuperMarioBlocks.jpeg)
 
