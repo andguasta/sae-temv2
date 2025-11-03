@@ -71,8 +71,8 @@ printf "password_here" | openssl enc -aes-256-cbc -a -d -pbkdf2 -pass pass:passw
 ## Programming
 
 Da dove viene la parola Algoritmo? - [video youtube](https://www.youtube.com/watch?v=oRkNaF0QvnI)
-The Elegance of the ASCII Table - [Link](https://danq.me/2024/07/21/ascii/)
 
+The Elegance of the ASCII Table - [Link](https://danq.me/2024/07/21/ascii/)
 **Practice Environments**: Per non dover necessariamente usare un compilatore è possibile usare degli environment nel browser che sono utili per testare velocemente i programmi. Selezionare **C** tra i linguaggi!
 - **Wandbox**: [wandbox.org](https://wandbox.org/)
 - **OnlineGDB**: [onlinegdb.com](https://www.onlinegdb.com/)
